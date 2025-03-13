@@ -16,8 +16,16 @@ header h1 {
 }
 .titulo h1 {
     font-size :150px; 
-    margin-bottom: -40px; 
-       
+    margin-bottom: -40px;     
+}
+.titulo{
+    margin: 10px;
+}
+.titulo img{
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+
 }
 .titulo .subt{
     font-size :50px; 
@@ -42,6 +50,9 @@ nav ul {
 
 main {
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .aula {
@@ -49,10 +60,14 @@ main {
     margin: 20px 0;
     padding: 15px;
     border-radius: 8px;
+    width: 1400px;
+    height: 500px;
+
 }
 
 .aula h2 {
     color: #c8102e; 
+    font-size: xx-large;
 }
 
 footer {
